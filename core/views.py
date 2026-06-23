@@ -92,14 +92,12 @@ def users_list(request):
     if not user:
         return Response({"error": "Unauthorized"}, status=401)
 
-    # GET
     if request.method == "GET":
         if user["role"] == "admin":
             return Response(USERS)
 
         return Response([user])
 
-    # POST (create user by admin)
     if not check_permission(user, "users", "create"):
         return Response({"error": "Forbidden"}, status=403)
 
