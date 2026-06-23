@@ -14,8 +14,17 @@
 ---
 ## Как запустить проект
 
-1. Создать виртуальное окружение
-2. Выполнить команду python manage.py runserver
+1. Создать виртуальное окружение:
+   python -m venv venv
+
+2. Активировать окружение:
+   source venv/bin/activate
+
+3. Установить зависимости:
+   pip install django djangorestframework bcrypt pyjwt
+
+4. Запустить сервер:
+   python manage.py runserver
    
 ---
 
