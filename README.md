@@ -12,6 +12,12 @@
 - ownership-based доступа
 
 ---
+## Как запустить проект
+
+1. Создать виртуальное окружение
+2. Выполнить команду python manage.py runserver
+   
+---
 
 ## Технологии
 
@@ -124,7 +130,8 @@
 - scope
 ---
 
-## API endpoints
+## API endpoints 
+Приложена так же коллекция Postman 
 
 **Auth**
 - POST /register/
