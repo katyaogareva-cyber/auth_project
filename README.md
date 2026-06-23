@@ -131,7 +131,6 @@
 ---
 
 ## API endpoints 
-Приложена так же коллекция Postman 
 
 **Auth**
 - POST /register/
@@ -160,4 +159,9 @@
 - PATCH /rules/{id}/
 - DELETE /rules/{id}/
 
+## Postman
 
+Файл коллекции:
+auth_project.postman_collection.json
+
+Используется для тестирования всех API endpoints
