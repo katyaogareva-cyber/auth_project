@@ -19,6 +19,7 @@
 - Django REST Framework
 - bcrypt (хеширование паролей)
 - JWT (аутентификация)
+- Postman(для проверки работы системы)
 - mock data
 
 ---
