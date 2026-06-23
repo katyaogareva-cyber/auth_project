@@ -95,6 +95,28 @@
 
 ---
 
+**Data model (mock)**
+
+**USERS:**
+- id
+- email
+- password
+- role
+- is_active
+
+**ORDERS:**
+- id
+- owner_id
+- title
+
+**ACCESS_RULES:**
+- role
+- element
+- action
+- value
+- scope
+---
+
 **API endpoints**
 
 **Auth**
@@ -123,3 +145,5 @@
 - GET /rules/{id}/
 - PATCH /rules/{id}/
 - DELETE /rules/{id}/
+
+
