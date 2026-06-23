@@ -79,9 +79,7 @@
 **Logout**
 Реализован через blacklist JWT токенов.
 
----
-
-### Middleware
+**Middleware**
 Автоматически определяет пользователя по токену из Authorization header.
 
 ---
